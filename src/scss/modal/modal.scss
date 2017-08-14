@@ -1,0 +1,86 @@
+/**********************
+    POP UP MODAL #1
+**********************/
+
+.button-popup {
+    text-align: center;
+    /*background-color: red;*/
+    padding: 10px;
+}
+
+.contents, .button-popup, .button-popup-2 {
+    text-align: center;
+     margin-top: 100px;
+}
+
+.button-popup a {
+    color: #fff;
+    font-weight: 1.2em;
+}
+
+.button-popup a:hover {
+    background-color: red;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.window-popup {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.wp-content {
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 3px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    /*bottom: 20%;*/
+}
+
+.wp-content a {
+    padding: 10px;
+    background-color: black;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    bottom: 90%;
+    border-radius: 5px;
+}
+
+.close-btn {
+    width: 20px;
+    height: 20px;
+}
+
+.button-popup a {
+        //margin-right: 40%;
+        background-color: blue;
+        border: 3px solid black;
+        padding: 10px;
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 736px) {
+
+    .contents {
+        margin-top: 70px;
+    }
+
+    .button-popup a {
+        margin-right: 40%;
+        background-color: blue;
+        border: 3px solid black;
+    }
+
+}
